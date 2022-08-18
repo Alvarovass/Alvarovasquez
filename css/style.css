@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  text-decoration-color: #050000;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 650px){
+
+  .header{
+
+    flex-direction: column;
+  }
+
+  .header ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+    position: initial;
+  
+  }
+
+}
+
+.header__logo{    
+  background-image: url(../img/travel-logo.png);  
+  height: 100px; 
+  width: 120px; 
+}
+
+
+.header ul {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  position: initial;
+
+}
+
+.header ul li {
+  list-style: none;
+  color: #ffffff;
+
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.header a {
+  text-decoration: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.header a:hover {
+
+  background-color: rgb(0, 179, 255);
+}
+
+.contenedor { 
+  
+  background-image: url(../img/PuntaCana.webp);
+  padding: 350px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+}
+
+@media(max-width: 650px){
+  .contenedor{
+    padding: 30px; 
+  }
+}
+
+.contenedor__caja{
+  border: 3px solid #ffffff;
+  width: 400px; 
+background-color: #241f1f8f;
+}
+
+.contenedor h1  {
+color: #ffffff; 
+margin: 50px; 
+padding: 30px;  
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+width: 250px; 
+font-size: 50px;
+}
+
+.contenedor p {
+ font-size: 25px; 
+ color: #fffffff6;  
+ margin-bottom: 20px; 
+ text-transform: capitalize;
+}   
+.contenedor a{
+ color: white;  
+text-decoration: none;
+}
+
+
+.caja2 {
+  background-image: url(../img/servicios.jpg);
+  padding: 20%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover; 
+} 
+
+
+.cajaboton {  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;  
+  font-size: 20px;  
+   padding: 5px; 
+   background-color: rgb(0, 179, 255);   
+    height: 100px;  
+    width: 200px;   
+   object-position: center; 
+  }
+
+.caja3 {
+  background-image: url(../img/somoss.jpg);
+  padding: 250px;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-size: cover;
+  padding-left: 15%;
+}
+
+.caja3 p {
+  color: rgb(0, 0, 0);
+  font-family: 'Edu', cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  background-color: #ffffff;
+  padding: 20px 20px;
+}
+
+.caja4 {
+  background-color: rgba(11, 35, 255, 0.192);
+
+}
+
+
+
+button:hover {  
+
+  background-color: rgb(255, 255, 255);
+  color: black;
+
+} 
+.cajaboton1:hover{    
+  background-color: rgb(0, 68, 228);
+
+}   
+.boton3:hover{  
+  background-color: rgb(0, 179, 255);
+}
+
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  align-items: center;
+} 
+main {
+  display: flex;
+  padding: 40px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.main{
+  display: flex;  
+      justify-content: center;  
+padding: 200px;  
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: bottom;  
+}
+
+.main img{
+  width: 300px; 
+  height: 250px;  
+  border-radius: 10px;    
+  margin: 20px;
+  transition: all 0.3s; 
+
+ 
+
+}
+.main img:hover{  
+  width: 300px; 
+  height: 250px;  
+  border-radius: 10px;    
+  margin: 20px;
+}
+.paquetes{  
+  display: flex;  
+      justify-content: center;  
+padding: 200px;  
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: bottom;  
+      background-image: url(../img/travel1.jpg);
+}
+
+@media(max-width: 650px){
+  .main{
+    flex-direction: column;
+    padding: 3rem;
+  }
+}
+.paquetes img{
+  width: 300px; 
+  height: 250px;  
+  border-radius: 10px;    
+  margin: 20px;
+  transition: all 0.3s;
+ 
+
+}
+
+.paquetes img:hover{
+  width: 350px; 
+  height: 275px;  
+
+}
+
+
+.footer {
+  background-color: gray;
+  padding: 20px;
+  color: white; 
+
+}   
